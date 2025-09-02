@@ -54,7 +54,7 @@ def print_message():
         client_ip = request.remote_addr
     #client_ip = request.headers.getlist("X-Forwarded-For")[0]
     weather = get_weather()
-    return f"Hello {client_ip} and welcome to silverfort. The weather today in TLV is {weather} C"
+    return f"Hello {client_ip} and welcome to silver. The weather today in TLV is {weather} C"
 
 # Run the app
 if __name__ == "__main__":
